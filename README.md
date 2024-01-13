@@ -11,6 +11,8 @@ tar -xvf alci-iso-lts.tar.gz
 ### building iso image
 * See [alci](https://github.com/arch-linux-calamares-installer/alci-iso-lts)
 
+## Introduction
+
 I integrated the configurations of KDE, i3, zsh, vim, and neofetch together, added KDE desktop and some commonly used software, and packaged them into an image based on Arch Linux. Originally, I planned to call it "optimized Arch", but later I felt that it did not comply with the KISS principle of Arch, so I renamed it Jargal Linux. The effect is not very good, the lattedock theme, top bar layout, and desktop background have not taken effect and need to be manually operated. The configuration of zsh and vim are also incomplete. This system can be installed using Calamares. I originally wanted to make a system that is easy to install and use right out of the box. The neofetch settings were also set up, but they did not take effect and require manual copying of configuration files. In short, this system still has many problems and is only a test version.
 
 
