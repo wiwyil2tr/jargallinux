@@ -19,11 +19,14 @@ This should automatically extract the iso from all the files.
 ### Extracting
 run
 ```
-cat alci-iso-zen.tar.gz.part-* > alci-iso-zen.tar.gz
-tar -xvf alci-iso-zen.tar.gz 
+cat archiso.tar.gz.part-* > archiso.tar.gz
+tar -xvf archiso.tar.gz
+git clone https://github.com/wiwyil2tr/jargal-build
+mv archiso jargal-build
 ```
 ### building iso image
 * See [alci](https://github.com/arch-linux-calamares-installer/alci-iso-zen)
+  or [jargal-build](https://github.com/wiwyil2tr/jargal-build)
 
 ## Introduction
 
