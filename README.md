@@ -1,5 +1,5 @@
 # Jargal Linux
-Based on Arch Linux with customized KDE desktop and calamares installer
+Based on Arch Linux with customized XFCE desktop, i3wm and calamares installer
 
 ## Building 
 ### Extracting
@@ -25,6 +25,11 @@ It also have configured zsh and vim, etc.
 ![image](https://github.com/user-attachments/assets/6f605c24-c0b8-4b82-9655-1a1c64f191ce)
 ![Screenshot_20240113_210628](https://github.com/wiwyil2tr/jargallinux/assets/108447154/c9a21e0a-0f89-418f-870a-0418b346f145)
 
+## Notice
+
+There's no GUI when booting from livecd, you should manually run `systemctl start lightdm` to start it
+
+## Download
 To download it , see [Github Releases](https://github.com/wiwyil2tr/jargallinux/releases)
 
 
